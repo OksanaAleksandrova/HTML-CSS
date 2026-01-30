@@ -1,0 +1,23 @@
+body {
+    background-color: #f1f1f1;
+    font-family: "Open Sans Light";
+}
+h2{
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 50px;
+    font-family: "Open Sans";
+    background-color: #dcdcdc;
+    width: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 6px;
+    display: inline;
+}
+span{
+    color: darkred;
+    font-size: 50px;
+}
