@@ -1,6 +1,6 @@
 body {
     background-color: #f1f1f1;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h2{
     margin-top: 120px;
@@ -9,7 +9,7 @@ h2{
 }
 p{
     font-size: 50px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #dcdcdc;
     width: 70px;
     padding-left: 10px;
