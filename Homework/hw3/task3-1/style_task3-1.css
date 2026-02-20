@@ -1,0 +1,41 @@
+body {
+    margin: 2%;
+    color: white;
+    font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 60vh;
+    background-color: #356ab5;
+    font-size: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+section {
+    height: 50vh;
+    width: 30%;
+    background-color: #224576;
+    font-size: 30px;
+}
+
+footer {
+    height: 90vh;
+    background-color: #356ab5;
+    font-size: 50px;
+}
+
+header, section, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    opacity: 70%;
+}

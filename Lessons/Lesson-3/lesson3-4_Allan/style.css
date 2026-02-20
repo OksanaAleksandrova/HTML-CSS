@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*--------------------- header ---------------------*/
+
+.active-link {
+    color: #377a50;
+}
+
+header {
+    height: 10vh;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header div {
+    text-align: center;
+}
+
+header div h3 {
+    font-size: 16px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: gray;
+    font-size: 20px;
+}
+
+/*--------------------- main-home ---------------------*/
+
+.main-home {
+    height: 90vh;
+    background-image: url(img/home_bg.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 100px;
+}
+
+.main-home p {
+    font-size: 20px;
+}
+
+.main-home h1 {
+    font-size: 100px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.main-home button {
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.main-home button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: #91a998;
+}
+
+/*--------------------- main-contact ---------------------*/
+
+.main-contact {
+    height: 90vh;
+    background: #91a9a0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(145, 169, 160) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 50px;
+}
+
+.main-contact p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.main-contact h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*--------------------- main-service ---------------------*/
+
+.main-service {
+    height: 90vh;
+    background: #91a9a0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(145, 169, 160) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 50px;
+}
+
+.main-service section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-service p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main-service h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.main-service button {
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.main-service button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: #91a998;
+}
+
+/*--------------------- main-blog ---------------------*/
+
+.main-blog {
+    height: 90vh;
+    background: #91a9a0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(145, 169, 160) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 50px;
+}
+
+.main-blog article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-blog p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main-blog h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.main-blog button {
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+.main-blog button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: #91a998;
+}
+
+/*--------------------- main-about ---------------------*/
+
+.main-about {
+    height: 90vh;
+    background: #91a9a0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(145, 169, 160) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 50px;
+}
+
+.main-about section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-about img {
+    width: 40%;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 5px -4px rgba(0, 0, 0, 0.16);
+}
+
+.main-about h1 {
+    margin-bottom: 50px;
+}
+
+.main-about p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main-about h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.main-about ul {
+    font-family: sans-serif;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+/*--------------------- main-location ---------------------*/
+
+.main-location {
+    height: 90vh;
+    background: #91a9a0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(145, 169, 160) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 50px;
+}
+
+.main-location section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.main-location p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.main-location h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-location img {
+    background-size: cover;
+}
