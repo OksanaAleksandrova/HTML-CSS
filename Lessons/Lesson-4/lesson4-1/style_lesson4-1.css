@@ -1,0 +1,9 @@
+video{
+    width: 70%;
+}
+
+iframe{
+    width: 80vh;
+    height: 45vh;
+    border: 10px solid deepskyblue;
+}
