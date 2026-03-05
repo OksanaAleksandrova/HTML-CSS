@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex order</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .card {
+            width: 200px;
+            height: 200px;
+        }
+
+        .blue {
+            background: deepskyblue;
+            order: 1;
+        }
+
+        .green {
+            background: #3eaf89;
+            order: 1;
+        }
+
+        .yellow {
+            background: yellow;
+            order: -1;
+        }
+
+        .pink {
+            background: pink;
+        }
+
+        .orange {
+            background: orange;
+            order: -2;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="card blue"></div>
+    <div class="card green"></div>
+    <div class="card yellow"></div>
+    <div class="card pink"></div>
+    <div class="card orange"></div>
+</div>
+
+</body>
+</html>
+

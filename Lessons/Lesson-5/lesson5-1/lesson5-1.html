@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <style>
+        .pink-box {
+            width: 200px;
+            height: 200px;
+            margin: 300px auto 0 auto;
+            background-color: lightpink;
+            animation: pink-yellow 5s linear infinite alternate;
+        }
+
+        @keyframes pink-yellow {
+            from {
+                transform: scale(1.5) rotate(60deg);
+                /*transform: skew(40deg); - наклоняет наискось компонент*/
+            }
+            40% {
+                border-radius: 20px;
+                transform: rotate(-60deg);
+            }
+            /*50%{*/
+            /*    transform: skew(0deg);*/
+            /*}*/
+            to {
+                transform: scale(1) rotate(0deg);
+                background-color: lightskyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="pink-box"></div>
+
+</body>
+</html>
