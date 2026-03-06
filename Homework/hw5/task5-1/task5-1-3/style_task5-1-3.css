@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3e4047;
+    border: 1px solid #1f2024;
+}
+
+.circle-1 {
+    animation: circle-1 3s linear infinite;
+}
+
+.circle-2 {
+    animation: circle-2 3s linear infinite;
+}
+
+.circle-3 {
+    animation: circle-3 3s linear infinite;
+}
+
+.circle-4 {
+    animation: circle-4 3s linear infinite;
+}
+
+.circle-5 {
+    animation: circle-5 3s ease-out infinite;
+}
+
+@keyframes circle-1 {
+    10% {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+    20% {
+        background-color: #12caca;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+}
+
+@keyframes circle-2 {
+    20% {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+    35% {
+        background-color: #12caca;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+}
+
+@keyframes circle-3 {
+    35% {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+    50% {
+        background-color: #12caca;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+}
+
+@keyframes circle-4 {
+    50% {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+    70% {
+        background-color: #12caca;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+}
+
+@keyframes circle-5 {
+    70% {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+    90% {
+        background-color: #12caca;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #3e4047;
+        transform: scale(1);
+    }
+}
