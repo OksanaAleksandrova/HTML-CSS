@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form sup {
+            color: red;
+            margin-left: 3px;
+        }
+
+        textarea {
+            resize: none;
+            width: 150px;
+        }
+
+        .form-registration{
+            border: 5px solid lightseagreen;
+            border-radius: 20px;
+            width: 30%;
+            padding: 50px;
+        }
+
+        input[type=text] {
+            background: lightcyan;
+            border: 2px solid lightseagreen;
+            border-radius: 4px;
+            color: cornflowerblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type=text]::placeholder {
+            color: lightseagreen;
+        }
+        input[type=text]:focus {
+            outline: 2px solid #fd5858;
+        }
+    </style>
+</head>
+<body>
+<form class="form-registration">
+    <label for="name">Type your name</label>
+    <input type="text" name="name" id="name" placeholder="Name" required><sup>*</sup>
+
+    <label for="email">Type your email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required><sup>*</sup>
+
+    <label for="password">Type your password</label>
+    <input type="password" name="password" id="password" placeholder="qwerty" required><sup>*</sup>
+
+    <label for="age">Type your age</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <!--    <input type="file" name="file">-->
+
+    <!--    <input type="date" name="date">-->
+
+    <label>Gender</label>
+    <label><input type="radio" name="gender" value="male">Male</label>
+    <label><input type="radio" name="gender" value="female">Female</label>
+
+    <label>
+        <input type="checkbox" name="newsletter">Subscribe to newsletter
+    </label>
+
+    <label for="country">Your country</label>
+    <select id="country">
+        <option value="">Choose your country</option>
+        <option value="ua">Ukraine</option>
+        <option value="us">USA</option>
+        <option value="ca">Canada</option>
+        <option value="au">Australia</option>
+    </select>
+
+    <label for="phone">Your phone model</label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">iPhone X</option>
+            <option value="xr">iPhone XR</option>
+            <option value="xs">iPhone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="galaxy-x">Samsung Galaxy X</option>
+            <option value="galaxy-xr">Samsung Galaxy XR</option>
+            <option value="galaxy-xs">Samsung Galaxy XS</option>
+        </optgroup>
+    </select>
+
+    <label for="comment"></label>
+    <textarea id="comment" rows="4" cols="30">
+    </textarea>
+
+    <div>
+        <input type="submit" value="Send form">
+        <input type="reset" value="Reset form">
+    </div>
+</form>
+</body>
+</html>
