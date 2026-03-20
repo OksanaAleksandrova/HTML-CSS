@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .item {
+            width: 300px;
+            height: 300px;
+        }
+
+        .item-1 {
+            background-color: hotpink;
+        }
+
+        .item-2 {
+            background-color: greenyellow;
+        }
+
+        .item-3 {
+            background-color: deepskyblue;
+        }
+
+        @media screen and (max-width: 480px) {
+            .item-2 {
+                background-color: #ffffbe;
+            }
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            .item-1 {
+                background-color: lightpink;
+            }
+
+            .item-3 {
+                background-color: lightskyblue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="item item-1"></div>
+<div class="item item-2"></div>
+<div class="item item-3"></div>
+</body>
+</html>

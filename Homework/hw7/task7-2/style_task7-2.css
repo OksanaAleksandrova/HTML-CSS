@@ -256,10 +256,11 @@ header ul {
     border-radius: 8px;
     border: 2px solid #8E88C1;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     gap: 26px;
+    padding-top: 36px;
     /*padding: 40px 16px 28px 15px;*/
 }
 
