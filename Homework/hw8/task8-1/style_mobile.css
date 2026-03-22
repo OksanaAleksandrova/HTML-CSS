@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+    .items {
+        width: 100%;
+        padding: 32px 16px;
+        margin: 0;
+        align-items: start;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .items div:nth-child(4), div:nth-child(5), div:nth-child(6) {
+        padding-top: 0;
+    }
+}

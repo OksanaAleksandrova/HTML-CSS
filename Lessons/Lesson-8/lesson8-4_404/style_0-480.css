@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px) {
+    .circle-left, .circle-right {
+        display: none;
+    }
+
+    .page-not-found {
+        padding: 0 16px;
+    }
+
+    .page-not-found h2 {
+        font-size: 110px;
+        line-height: 90px;
+    }
+
+    .page-not-found h3 {
+        font-size: 28px;
+        padding: 16px 0 8px 0;
+    }
+
+    .page-not-found p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .page-not-found div {
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 24px;
+    }
+
+    .page-not-found div button:nth-child(1), .page-not-found div button:nth-child(2) {
+        width: 100%;
+    }
+}
