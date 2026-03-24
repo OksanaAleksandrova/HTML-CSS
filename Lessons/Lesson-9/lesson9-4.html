@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .grid {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 25% 50% 25%;
+            grid-template-rows: 15% 70% 15%;
+            grid-template-areas:
+        "header header header"
+        "left-aside main right-aside"
+        "footer footer footer";
+        }
+
+        header {
+            grid-area: header;
+            background-color: #bdbdbd;
+        }
+
+        .left-aside {
+            grid-area: left-aside;
+            background-color: #808080;
+        }
+
+        .right-aside {
+            grid-area: right-aside;
+            background-color: #718071;
+        }
+
+        main {
+            grid-area: main;
+            background-color: #736666;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #bdbdbd;
+        }
+
+        @media screen and (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 10% 30% 50% 10%;
+                grid-template-areas:
+        "header header"
+        "left-aside right-aside"
+        "main main"
+        "footer footer";
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header></header>
+    <aside class="left-aside"></aside>
+    <main></main>
+    <aside class="right-aside"></aside>
+    <footer></footer>
+</div>
+</body>
+</html>
